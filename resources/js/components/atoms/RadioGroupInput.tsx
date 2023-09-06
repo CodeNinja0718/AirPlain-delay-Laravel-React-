@@ -22,7 +22,6 @@ export const RadioGroupInput: (props: IRadioGroupInput) => ReactElement = ({name
                 </div>
             ))}
             </div>
-
         </div>
     )
 }
