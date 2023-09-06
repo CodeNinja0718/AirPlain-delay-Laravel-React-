@@ -222,24 +222,12 @@ export const ClaimStep1 = () => {
                                             </table>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <p className="text-3xl  text-gray-400">Optional : </p>
-                                    <p className="text-4xl font-bold text-gray-500">Tell us what happened</p>
-                                </div>
+                                </div> 
+                                <Link to={"/claim2/3"}>
                                     <Button name="+ Add another passenger € 450" className="bg-blue-2 px-4 text-white mt-5"/>
-                                <p className="text-gray-400">
-                                Please provide any information that may help us proccess your claim quickly. Were you rebooked on a different flight?
-                                </p>
-                                <div className="border-1 border-gray-400 rounded-10 p-5 mt-2">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
+                                </Link>
                             </div>
-                            <Link to={"/claim2/2"}>
-                                <Button name="Send" className="bg-red px-32 text-white mt-5"/>
-                            </Link>
-
                         </div>
-                    </div>
+        </div>
     )
 }
