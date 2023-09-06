@@ -5,10 +5,9 @@ interface ISelectInput extends InputHTMLAttributes<HTMLInputElement> {
     input?:boolean;
     startImg?: string;
     endImg?: string;
-    label?:string;
+    label?: string;
     required?: boolean;  
 }
-
 export const SelectInput : (props: ISelectInput) => ReactElement = ({options, ...rest}) => {
     return(
         <div className={`flex flex-col  ${rest.className}`}>
