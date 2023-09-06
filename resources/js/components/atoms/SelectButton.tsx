@@ -4,7 +4,6 @@ interface IOption{
     text : string;
     value : string | number;
 }
-
 interface ISelectButton extends InputHTMLAttributes<HTMLSelectElement> {
     options: Array<IOption>;
     input?:boolean;
@@ -14,7 +13,6 @@ interface ISelectButton extends InputHTMLAttributes<HTMLSelectElement> {
     required?: boolean;
     onChange  ?: React.ChangeEventHandler<HTMLSelectElement>; 
 }
-
 export const SelectButton : (props: ISelectButton) => ReactElement = ({options, ...rest}) => {
     return(
         <div className={`flex flex-row items-center   ${rest.className}`}>
