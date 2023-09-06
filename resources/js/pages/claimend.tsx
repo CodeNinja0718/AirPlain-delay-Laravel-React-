@@ -32,9 +32,7 @@ export const Claimend = () => {
                     <div className="w-110 h-190 mb-20 py-20 text-center bg-white rounded-10 border-1 ml-4 mt-16">
                        <div className="text-4xl flex justify-between items-center px-20">
                             <p className="px-2">TEA</p>
-                            {/* <span> */}
                                 <img src="../assets/img/air-black.svg" className="align-middle" alt="" />
-                            {/* </span> */}
                             <p className="px-2">BUD</p>
                        </div>
                        <p className="pt-3" >
