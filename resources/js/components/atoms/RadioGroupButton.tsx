@@ -12,7 +12,7 @@ interface IRadioGroupButton extends InputHTMLAttributes<HTMLInputElement> {
     required?: boolean;
     className?:string;
     buttonWidth?:string;
-    key?: number
+    key?: number;
 }
 export const RadioGroupButton: (props: IRadioGroupButton) => ReactElement = ({name,buttonWidth,state, label, required,radioList, className,...rest}) => {
     return(
